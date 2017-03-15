@@ -1,2 +1,20 @@
 "theme-bootstrap-2" :
   "use" : "theme"
+
+posts :
+  sort : ["date", "desc"]
+  rss:
+    enable: true # set to false to disable rss
+    limit: 30   # default is 20
+
+"date_format" : "%d/%m/%Y"
+
+production_url : https://blog.guillaumerenaudin.com
+
+widgets :
+  analytics :
+    use : google
+    # -- config for google --
+    tracking_id : 'UA-42249239-2'
+    # -- config for getclicky  --
+    # site_id :
