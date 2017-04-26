@@ -14,7 +14,7 @@ CURRENT_DIR=$(pwd)
 TARGET_DIR=$1
 TMP_DIR='/tmp/rguillome-github-io'
 
-find $TARGET_DIR -maxdepth 1 -mindepth 1 -not -name .git -exec rm -rf {} \;
+find $TARGET_DIR -maxdepth 1 -mindepth 1 -not -name .git -not -name CNAME -exec rm -rf {} \;
 
 bundle exec ruhoh compile $TMP_DIR;
 
