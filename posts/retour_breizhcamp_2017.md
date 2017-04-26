@@ -45,41 +45,41 @@ __Comment ça marche systemd déjà__ ? - [Quentin Adam](https://twitter.com/wax
 
 > Initd est un gestionnaire de service dont le code repose uniquement sur des scripts Bash qui contiennent notamment les conventions de la CLI. Systemd utilise, lui, des fichiers de configuration bien documentés et structurés qui n'empêchent en rien d'y ajouter des scripts pour les extensions ponctuelles ...
 
-__Le test d’intrusion Red Team : digne successeur de l’audit de sécurité ?__ - [Clément Michel](@clement_michel)
+__Le test d’intrusion Red Team : digne successeur de l’audit de sécurité ?__ - [Clément Michel](https://twitter.com/clement_michel)
 
 > ReadTeam : Une équipe de choc en mode hidden qui tente de pénétrer votre réseau pendant 6 mois à 1 an, ça permet d'efficacement colmater les brèches mais cela n'évitera pas un audit traditionnel pour définir la stratégie long terme de votre politique SSI
 
-__Keynote "Qui veut gagner une carrière de développeur"__ - [Jean-François Garreau](@jefbinomed) [Thomas Gx](@ThomasGX)
+__Keynote "Qui veut gagner une carrière de développeur"__ - [Jean-François Garreau](https://twitter.com/jefbinomed) & [Thomas Gx](https://twitter.com/ThomasGX)
 
 > Les développeurs sont mal payés et infine c'est toujours le CTO qui décide. 
 
 > _Désolé ça fait 2 idées mais je n'arrivais vraiment pas à choisir (ndlr)_ 
 
-__Keynote "Comment les logiciels pourrissent ma vie et pourraient la faciliter"__ - [Antonin Le Mée](@antoninlemee)
+__Keynote "Comment les logiciels pourrissent ma vie et pourraient la faciliter"__ - [Antonin Le Mée](https://twitter.com/antoninlemee)
 
 > Ne jamais croire que son expérience personnelle, ses connaissances et ses a priori permettent de comprendre et de définir la diversité du monde qui nous entoure. De là, ajouter des contraintes dans son dev si ce n'est pas impératif, c'est littéralement... comment ils disent déjà ? overkill !
 
-__Smartphone et blockchain, armes de révolution massive__ - [Guillaume Nicolas](@GuiillaumeN) et [Damien Lecan](@dlecan)
+__Smartphone et blockchain, armes de révolution massive__ - [Guillaume Nicolas](https://twitter.com/GuiillaumeN) et [Damien Lecan](https://twitter.com/dlecan)
 
 > Ne rajoutez pas d'intermédiaire entre vous et la blockchain : seul un noeud de blockchain embarqué dans un téléphone mobile est digne de confiance car c'est le vôtre !
 
-__Sinon, quoi de neuf côté Apache Groovy__ ? - [Guillaume Laforge](@glaforge) et [Cédric Champeau](@CedricChampeau)
+__Sinon, quoi de neuf côté Apache Groovy__ ? - [Guillaume Laforge](https://twitter.com/glaforge) et [Cédric Champeau](https://twitter.com/CedricChampeau)
 
 > Grâce aux macros vous pouvez désormais écrire plus facile des instructions de compilation pour AST sans avoir à utiliser le modèle objet de l'arbre syntaxique
 
-__Quand Internet sera gouvernée par les \|chats> de Shrödinger__ - [Nicolas De Loof](@ndeloof)
+__Quand Internet sera gouvernée par les \|chats> de Shrödinger__ - [Nicolas De Loof](https://twitter.com/ndeloof)
 
 > `$ |\Psi(t)> $` ... et puis il y avait 42 chats mais on ne savait jamais précisément où ils étaient ou n'étaient pas ...
 
-__Introduction à Unikernel__ - [Tomas Rodriguez](@rstomasalberto) et [Jean-Baptiste Claramonte](@jbclaramonte)
+__Introduction à Unikernel__ - [Tomas Rodriguez](https://twitter.com/rstomasalberto) et [Jean-Baptiste Claramonte](https://twitter.com/jbclaramonte)
 
 > Unikernel sera peut-être le futur des conteneurs : avantages d'isolation d'une VM avec la légèreté et le "just what I need" d'un conteneur
 
-__Ici le commandant de bord, on passe en mode avion !__ - [Olivier Leplus](@olivierleplus) et [Wassim Chegham](@manekinekko)
+__Ici le commandant de bord, on passe en mode avion !__ - [Olivier Leplus](https://twitter.com/olivierleplus) et [Wassim Chegham](https://twitter.com/manekinekko)
 
 > L'API sync permet de contrôler ce qui peut être fait lorsque l'on récupère la connexion, complétée par une local database, c'est l'outil privilégié pour une expérience offline sans avoir besoin de sauter en vol !
 
-__Automatiser la gestion de vos environnements avec Ansible__ - [Fabien PAITRY](@FabienPaitry)
+__Automatiser la gestion de vos environnements avec Ansible__ - [Fabien PAITRY](https://twitter.com/FabienPaitry)
 
 > Ansible est plus simple à prendre en main que Puppet et fonctionne sans agent ce qui simplifie son intégration dans les infrastructures actuelles 
 
