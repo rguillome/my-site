@@ -1,0 +1,11 @@
+Utilisation de ruhoh :
+
+Pour le lancement en local : 
+```shell
+bundle exec ruhoh server 9292
+```
+
+Pour la génération des pages (pushées sous un dépôt github pages) :
+```shell
+bundle exec ruhoh compile '$DIR/rguillome-github-io'
+```

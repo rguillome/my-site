@@ -9,7 +9,7 @@ posts :
 
 "date_format" : "%d/%m/%Y"
 
-production_url : https://blog.guillaumerenaudin.com
+production_url : https://guillaumerenaudin.com
 
 widgets :
   analytics :
@@ -18,3 +18,8 @@ widgets :
     tracking_id : 'UA-42249239-2'
     # -- config for getclicky  --
     # site_id :
+  comments :
+    enable : true
+    use : disqus
+    # -- config for disqus --
+    short_name : guillaumerenaudin-com
