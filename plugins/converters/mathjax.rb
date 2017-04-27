@@ -33,7 +33,9 @@ class Ruhoh
       def self.convert(content)
         markdown = Redcarpet::Markdown.new(HTMLwithAlbino.new(:with_toc_data => true), 
         :autolink => true, 
-        :fenced_code_blocks => true
+        :fenced_code_blocks => true,
+        :disable_indented_code_blocks => true,
+        :hard_wrap => true
         )
         markdown.render(content)
       end

@@ -18,31 +18,30 @@ La trace, en plus d'indiquer le type d'exception survenue, complètera par des i
 
 
 On aura donc une trace de la forme :
-
-
 ```[package].[className].[methodName]([parametersIn])[parameterOut]```
 
-
 Par exemple :
-```org.springframework.cache.annotation.CacheAnnotationParser.parseCacheAnnotations(Ljava/lang/reflect/AnnotatedElement;)Ljava/util/Collection;```
+
+```java
+org.springframework.cache.annotation.CacheAnnotationParser.
+                  parseCacheAnnotations(Ljava/lang/reflect/AnnotatedElement;)Ljava/util/Collection;
+```
 
 
 Les arguments ont une notation particulière comme on peut le voir dans l'exemple.
 
 
 Chaque argument est donc présenté de cette forme :
-
 ```[Type][(optional)[package].[className]];```
-
 
 Où Type sera :
 
-    L dans le cas d'une classe ou une interface
-    Z pour pour un boolean
-    B pour un byte
-    C pour un char
-    D pour un double
-    F pour un float
-    I pour un int
-    J pour un long
-    S pour un short
+* L dans le cas d'une classe ou une interface  
+* Z pour pour un boolean
+* B pour un byte
+* C pour un char 
+* D pour un double
+* F pour un float
+* I pour un int
+* J pour un long
+* S pour un short
