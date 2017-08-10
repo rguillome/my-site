@@ -14,16 +14,16 @@ tags : [development, breizhcamp, rennes]
 
 </style>
 
-Voici un petit retour sur 2 jours passés au Breizhcamp 2017. Cette année le thème était la série [Breaking Bad](http://www.allocine.fr/series/ficheserie_gen_cserie=3517.html). Et une chose est sûre, les organisateurs ainsi que les sponsors ont vraiment jouer le jeu à fond :
+Voici un petit retour sur 2 jours passés au Breizhcamp 2017. Cette année le thème était la série [Breaking Bad](http://www.allocine.fr/series/ficheserie_gen_cserie=3517.html). Et une chose est sûre, les organisateurs ainsi que les sponsors ont vraiment joué le jeu à fond :
 
 ![AfficheBzc2017]({{urls.media}}/retour_breizhcamp_2017/breakingcamp.png)
 
 
-Plutôt que de résumer les conférences auxquelles j'ai assisté, j'ai décidé de ne présenter qu'une seule idée de chaque session. Ca permettra une lecture rapide et un équilibre de feedback entre toutes les conférences :
+Plutôt que de résumer les conférences auxquelles j'ai assistées, j'ai décidé de ne présenter qu'une seule idée de chaque session. Ca permettra une lecture rapide et un équilibre de feedback entre toutes les conférences :
 
 __Les problèmes que l’on rencontre en microservice : configuration, authentification et autre joyeusetés__ - [Quentin Adam](https://twitter.com/waxzce)
 
-> Pour l'authentification de vos services mangez des [Macaroons](http://hackingdistributed.com/2014/05/16/macaroons-are-better-than-cookies/) c'est bien meilleurs que des cookies
+> Pour l'authentification de vos services mangez des [Macaroons](http://hackingdistributed.com/2014/05/16/macaroons-are-better-than-cookies/) c'est bien meilleur que des cookies
 
 __Retour d'expérience: le déploiement continu chez Expedia__ - [Guillaume Scheibel](https://twitter.com/g_scheibel)
     
@@ -51,7 +51,7 @@ __Le test d’intrusion Red Team : digne successeur de l’audit de sécurité ?
 
 __Keynote "Qui veut gagner une carrière de développeur"__ - [Jean-François Garreau](https://twitter.com/jefbinomed) & [Thomas Gx](https://twitter.com/ThomasGX)
 
-> Les développeurs sont mal payés et infine c'est toujours le CTO qui décide. 
+> Les développeurs sont mal payés et in fine c'est toujours le CTO qui décide. 
 
 > _Désolé ça fait 2 idées mais je n'arrivais vraiment pas à choisir (ndlr)_ 
 
@@ -83,7 +83,7 @@ __Automatiser la gestion de vos environnements avec Ansible__ - [Fabien PAITRY](
 
 > Ansible est plus simple à prendre en main que Puppet et fonctionne sans agent ce qui simplifie son intégration dans les infrastructures actuelles 
 
-Je complèterai par une idée majeure qui est valable pour le BreizhCamp mais aussi pour d'autres évènements de développeurs auxquels j'ai pu participer tels que le DevFest. Il s'agit de la __bienveillance générale__ qui reigne dans ces confs : chacun peut échanger, essayer, proposer, se tromper, réussir et tout ça toujours dans une bonne ambiance et avec un soutien général des participants, speakers et organisateurs.
+Je complèterai par une idée majeure qui est valable pour le BreizhCamp mais aussi pour d'autres évènements de développeurs auxquels j'ai pu participer tels que le DevFest. Il s'agit de la __bienveillance générale__ qui règne dans ces confs : chacun peut échanger, essayer, proposer, se tromper, réussir et tout ça toujours dans une bonne ambiance et avec un soutien général des participants, speakers et organisateurs.
 Et si un conflit survient, il se transforme par la suite en une belle leçon de savoir-vivre, d'humilité et d'humanité. Il faut apprendre à évoluer avec les autres.
 
 
