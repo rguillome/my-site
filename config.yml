@@ -9,7 +9,7 @@ posts :
 
 "date_format" : "%d/%m/%Y"
 
-"sh-scripts" : 
+sh-scripts : 
   use: "ignore"
 
 production_url : https://guillaumerenaudin.com
