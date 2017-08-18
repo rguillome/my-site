@@ -1,10 +1,12 @@
+before_script:
+  mkdir -p $RUHOH_TMP_BUILD_DIR
 script:
-  bundle exec ruhoh compile $TRAVIS_BUILD_DIR
+  bundle exec ruhoh compile $RUHOH_TMP_BUILD_DIR
 before_deploy:
-  git clone https://rguillome:$GITHUB_TOKEN@github.com/rguillome/rguillome.github.io.git $TARGET_DEPLOY_DIR 
+  git clone https://rguillome:$GITHUB_TOKEN@github.com/rguillome/rguillome.github.io.git $TARGET_DEPLOY_DIR
 deploy:
   provider: script
   skip_cleanup: true
-  script: scripts/deploy.sh $TRAVIS_BUILD_DIR $TARGET_DEPLOY_DIR
+  script: scripts/deploy.sh $RUHOH_TMP_BUILD_DIR $TARGET_DEPLOY_DIR
   on:
     branch: master
