@@ -12,17 +12,14 @@ fi
 
 CURRENT_DIR=$(pwd)
 TARGET_DIR=$1
-TMP_DIR='/tmp/rguillome-github-io'
 
 find $TARGET_DIR -maxdepth 1 -mindepth 1 -not -name .git -not -name CNAME -exec rm -rf {} \;
 
-bundle exec ruhoh compile $TMP_DIR;
+bundle exec ruhoh compile;
 
-cp -R $TMP_DIR/* $1;
+cp -R compiled/* $1;
 
 cd $1;
 git add .;
 git commit -m "Publication le `date +%Y%M%d_%H%m%S`";
 git push;
-
-cd $CURRENT_DIR;
