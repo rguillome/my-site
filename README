@@ -7,5 +7,7 @@ bundle exec ruhoh server 9292
 
 Pour la génération des pages (pushées sous un dépôt github pages) :
 ```shell
-bundle exec ruhoh compile '$DIR/rguillome-github-io'
+bundle exec ruhoh compile
 ```
+
+le site généré sera présent dans le répertoire `compile`
