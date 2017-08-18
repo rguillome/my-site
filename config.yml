@@ -7,6 +7,9 @@ posts :
     enable: true # set to false to disable rss
     limit: 30   # default is 20
 
+"scripts" :
+  use: "ignore"
+
 "date_format" : "%d/%m/%Y"
 
 production_url : https://guillaumerenaudin.com
