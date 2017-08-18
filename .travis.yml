@@ -1,6 +1,10 @@
+script:
+  bundle exec ruhoh compile $TRAVIS_BUILD_DIR
+before_deploy:
+  git clone https://rguillome:$GITHUB_TOKEN@github.com/rguillome/rguillome.github.io.git $TARGET_DEPLOY_DIR 
 deploy:
-  provider: pages
+  provider: script
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  script: scripts/deploy.sh $TRAVIS_BUILD_DIR $TARGET_DEPLOY_DIR
   on:
     branch: master
