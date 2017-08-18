@@ -1,5 +1,5 @@
 script:
-  bundle exec ruhoh compile -v
+  bundle exec ruhoh -v compile 
 before_deploy:
   git clone https://rguillome:$GITHUB_TOKEN@github.com/rguillome/rguillome.github.io.git $TARGET_DEPLOY_DIR
 deploy:
