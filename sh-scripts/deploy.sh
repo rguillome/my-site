@@ -17,7 +17,7 @@ find $TARGET_DIR -maxdepth 1 -mindepth 1 -not -name .git -not -name CNAME -exec 
 
 cp -R $BUILD_DIR/* $TARGET_DIR;
 
-cd $1;
+cd $TARGET_DIR;
 git add .;
 git commit -m "Publication `date +%Y%M%d_%H%m%S`";
 git push;
