@@ -10,4 +10,4 @@ Pour la génération des pages (pushées sous un dépôt github pages) :
 bundle exec ruhoh compile
 ```
 
-le site généré sera présent dans le répertoire `compile`
+le site généré sera présent dans le répertoire `compiled`

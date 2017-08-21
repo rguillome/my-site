@@ -12,6 +12,9 @@ posts :
 "sh-scripts" : 
   "use": "ignore"
 
+"vendor" :
+  "use": "ignore"
+
 production_url : https://guillaumerenaudin.com
 
 
